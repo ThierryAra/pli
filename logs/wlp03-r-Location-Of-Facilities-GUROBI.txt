@@ -1,0 +1,63 @@
+
+Gurobi 11.0.0 (linux64) logging started Wed Nov 29 17:11:12 2023
+
+Set parameter LogFile to value "wlp03-r-Location-Of-Facilities-GUROBI.txt"
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (linux64 - "Ubuntu 22.04.2 LTS")
+
+CPU model: 11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Academic license 2443615 - for non-commercial use only - registered to th___@gmail.com
+Optimize a model with 1412 rows, 405200 columns and 810000 nonzeros
+Model fingerprint: 0x0cb16f14
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+02]
+  Objective range  [1e+00, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve time: 0.46s
+Presolved: 1412 rows, 405200 columns, 810000 nonzeros
+
+Concurrent LP optimizer: dual simplex and barrier
+Showing barrier log only...
+
+Ordering time: 0.03s
+
+Barrier statistics:
+ AA' NZ     : 4.048e+05
+ Factor NZ  : 5.732e+05 (roughly 170 MB of memory)
+ Factor Ops : 2.756e+08 (less than 1 second per iteration)
+ Threads    : 3
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   2.04609082e+06 -4.68840664e+05  6.04e+01 0.00e+00  8.26e+00     1s
+   1   3.18874857e+05 -5.97804845e+04  5.60e+00 1.14e-13  9.23e-01     1s
+   2   1.68013646e+05  7.01601453e+04  9.88e-02 1.06e+00  1.25e-01     1s
+   3   1.55778701e+05  8.91818443e+04  2.02e-02 8.26e-01  8.39e-02     1s
+   4   1.50114645e+05  1.00050273e+05  1.34e-02 6.16e-01  6.29e-02     1s
+   5   1.47053345e+05  1.05732666e+05  1.11e-02 4.71e-01  5.18e-02     1s
+   6   1.42800558e+05  1.06671482e+05  8.66e-03 5.68e-14  4.52e-02     1s
+   7   1.37671540e+05  1.08403507e+05  6.66e-03 2.81e-01  3.66e-02     1s
+   8   1.31435797e+05  1.11057434e+05  4.10e-03 1.92e-01  2.55e-02     1s
+   9   1.26673275e+05  1.12183116e+05  2.68e-03 1.37e-01  1.81e-02     1s
+  10   1.22778685e+05  1.13174816e+05  1.71e-03 8.72e-02  1.20e-02     1s
+  11   1.20267322e+05  1.13723162e+05  1.14e-03 5.93e-02  8.18e-03     1s
+  12   1.19726045e+05  1.14050985e+05  1.02e-03 4.14e-02  7.08e-03     2s
+  13   1.18457080e+05  1.14293296e+05  7.55e-04 2.60e-02  5.18e-03     2s
+  14   1.16999162e+05  1.14485885e+05  4.63e-04 1.17e-02  3.12e-03     2s
+  15   1.15150746e+05  1.14519770e+05  9.05e-05 9.12e-03  7.95e-04     2s
+  16   1.14787241e+05  1.14572367e+05  2.52e-05 4.98e-03  2.74e-04     2s
+  17   1.14703706e+05  1.14606699e+05  1.13e-05 2.17e-03  1.24e-04     2s
+  18   1.14651412e+05  1.14620958e+05  2.76e-06 1.03e-03  3.94e-05     2s
+
+Barrier performed 18 iterations in 1.89 seconds (1.61 work units)
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with dual simplex
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+   40395    1.1463365e+05   0.000000e+00   0.000000e+00      2s
+
+Solved in 40395 iterations and 1.89 seconds (1.71 work units)
+Optimal objective  1.146336517e+05

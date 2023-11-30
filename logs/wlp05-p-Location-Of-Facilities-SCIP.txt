@@ -1,0 +1,15 @@
+presolving:
+   (5.4s) running MILP presolver
+   (38.3s) MILP presolver found nothing
+   (348.4s) probing: 1/600 (0.2%) - 0 fixings, 0 aggregations, 0 implications, 0 bound changes
+   (348.4s) probing aborted: solving stopped
+presolving (1 rounds: 1 fast, 1 medium, 1 exhaustive):
+ 0 deleted vars, 0 deleted constraints, 0 added constraints, 0 tightened bounds, 0 added holes, 0 changed sides, 0 changed coefficients
+ 0 implications, 0 cliques
+presolving was interrupted.
+Presolving Time: 345.63
+
+SCIP Status        : solving was interrupted [time limit reached]
+Solving Time (sec) : 348.42
+Solving Nodes      : 0
+Primal Bound       : +1.00000000000000e+20 (0 solutions)
